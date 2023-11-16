@@ -47,7 +47,7 @@ print("Financial Analysis")
 print("------------------------------")
 print(f"Total Months: {len(months)}")
 print(f"Total: ${total}")
-print(f"Average Change: ${average_change:.2%}")
+print(f"Average Change: ${average_change}")
 print(f"Greatest Increase in Profits: {greatest_month} $({greatest_increase})")
 print(f"Greatest Decrease in Profits: {worst_month} $({greatest_decrease})")
 #Redirects stdout which is the standard output, allows me to assign python to write somewhere else which means the prints will go into the designated text file in the path. 
@@ -59,7 +59,7 @@ with open(output_file_path, 'w') as output_file:
     print("------------------------------")
     print(f"Total Months: {len(months)}")
     print(f"Total: ${total}")
-    print(f"Average Change: ${average_change:.2%}")
+    print(f"Average Change: ${average_change}")
     print(f"Greatest Increase in Profits: {greatest_month} $({greatest_increase})")
     print(f"Greatest Decrease in Profits: {worst_month} $({greatest_decrease})")
 
