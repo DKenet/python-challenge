@@ -37,6 +37,7 @@ with open(pypoll_csv) as file:
     else:
         Winner = "Raymon Anthony Doane"
     #printing results
+    #experimenting with a different way to display result for practice
 
     result_text.append("Election Results")
     result_text.append("---------------------------")
